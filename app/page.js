@@ -5,6 +5,7 @@ import Navbar from '@/Components/Nav folder/Navbar'
 import Hero from '@/Components/Hero folder/Hero'
 import Diagnosys from '@/Components/Diagnosys History/Diagnosys'
 import Alert from '@/Components/Alert/Alert'
+import Ticket from '@/Components/Ticket/Ticket'
 
 const page = () => {
   return (
@@ -13,12 +14,12 @@ const page = () => {
     <Navbar/>
     <Hero/>
     
-    <div className="container bg-blue-500 h-screen rounded-t-[40px]">
+    <div className="container bg-blue-500 h-fit py-3 w-screen rounded-t-[40px]">
     <Diagnosys/>
     <Alert/>
     </div>
+    <Ticket/>
     </div>
-    
     </>
   )
 }
